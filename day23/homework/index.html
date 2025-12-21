@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <title>რეგისტრაცია</title>
+</head>
+<body>
+
+    <h2>რეგისტრაციის ფორმა</h2>
+
+    <form>
+
+        
+        <label for="name">სახელი:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        
+        <label for="surname">გვარი:</label>
+        <input type="text" id="surname" name="surname" required>
+        <br><br>
+
+     
+        <label for="age">ასაკი:</label>
+        <input type="number" id="age" name="age" required>
+        <br><br>
+
+        
+        <label>გენდერი:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">კაცი</label><br>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">ქალი</label>
+        <br><br>
+
+      
+        <label for="country">ქვეყანა:</label>
+        <select id="country" name="country" required>
+            <option value="">აირჩიეთ ქვეყანა</option>
+            <option value="georgia">საქართველო</option>
+            <option value="usa">აშშ</option>
+            <option value="germany">გერმანია</option>
+            <option value="france">საფრანგეთი</option>
+            <option value="italy">იტალია</option>
+            <option value="spain">ესპანეთი</option>
+            <option value="england">ინგლისი</option>
+            <option value="turkey">თურქეთი</option>
+            <option value="japan">იაპონია</option>
+            <option value="canada">კანადა</option>
+        </select>
+        <br><br>
+
+        
+        <input type="checkbox" id="rules" name="rules" required>
+        <label for="rules">
+            ვეთანხმები საიტის გამოყენების პოლიტიკას და წესებს
+        </label>
+        <br><br>
+        <button type="submit">რეგისტრაცია</button>
+
+    </form>
+
+</body>
+</html>
