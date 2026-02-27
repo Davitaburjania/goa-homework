@@ -1,0 +1,39 @@
+  body {
+            font-size: 16px; 
+        }
+
+        .container {
+            background-color: black;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .p1 {
+            color: red;
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        .p2 {
+            color: blue;
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        .p3 {
+            color: green;
+            font-size: 1.5rem; 
+            font-weight: 700;
+        }
+
+        .p4 {
+            color: yellow;
+            font-size: 1.5rem; 
+            font-weight: 200;
+        }
+
+        .p5 {
+            color: orange;
+            font-size: 1.5rem; 
+            font-weight: 200;
+        }
